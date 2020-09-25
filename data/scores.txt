@@ -1,0 +1,8 @@
+blue 		20
+bulba		30
+charizord	50
+pika     	35   
+red		10
+pink		40
+meow		-50
+evil		-200

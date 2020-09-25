@@ -1,0 +1,247 @@
+.target{
+	position: absolute;
+	height: 20%;
+	width: 10%;
+	top: 0%
+}
+
+html{
+	cursor: url(../data/cursor/cursor.png),default;
+}
+
+body{
+	background-image:url(data/bg/broken_bridge.png); 
+	background-size:cover; 
+	background-repeat: no-repeat;
+}
+
+
+/*__________________________TARGETS_____________________________*/
+@keyframes targets{
+	0%{left:25%;top:0%;}
+	20%{left:0%;top:0%;}
+	40%{left:0%;top:80%;}
+	60%{left:90%;top:80%;}
+	80%{left:90%;top:0%;}
+	100%{left:25%;top:0%;}
+}
+
+@keyframes pops{
+	0%{top:45%;left:30%;height: 0%;width:0%;}
+	50%{top:35%;left:25%;height: 20%;width: 10%;}
+	100%{top:45%;left:30%;height:0%;width:0%;}
+}
+
+@keyframes push{
+	0%{height: 0%;width:0%;}
+	50%{height: 20%;width: 10%;}
+	100%{;height:0%;width:0%;}
+}
+
+
+#t1{
+	display: none;
+	top:31%;
+	left:25%;
+	cursor: url(../data/cursor/cursor.png),default;
+	animation-name: push;
+	animation-duration:1.2s;
+	animation-iteration-count: infinite;
+
+}
+
+#t2{
+	display: none;
+	top:31%;
+	left:40%;
+	cursor: url(../data/cursor/cursor.png),default;
+	animation-name: push;
+	animation-duration:1.2s;
+	animation-iteration-count: infinite;
+}
+
+#t3{
+	display: none;
+	top:31%;
+	left:55%;
+	cursor: url(../data/cursor/cursor.png),default;
+	animation-name: push;
+	animation-duration:1.2s;
+	animation-iteration-count: infinite;
+}
+
+#t4{
+	display: none;
+	top:31%;
+	left:70%;
+	cursor: url(../data/cursor/cursor.png),default;
+	animation-name: push;
+	animation-duration:1.2s;
+	animation-iteration-count: infinite;
+}
+
+#t5{
+	display: none;
+	top:55%;
+	left:25%;
+	cursor: url(../data/cursor/cursor.png),default;
+	animation-name: push;
+	animation-duration:1.2s;
+	animation-iteration-count: infinite;
+}
+
+#t6{
+	display: none;
+	top:55%;
+	left:40%;
+	cursor: url(../data/cursor/cursor.png),default;
+	animation-name: push;
+	animation-duration:1.2s;
+	animation-iteration-count: infinite;
+}
+
+#t7{
+	display: none;
+	top:55%;
+	left:55%;
+	cursor: url(../data/cursor/cursor.png),default;
+	animation-name: push;
+	animation-duration:1.2s;
+	animation-iteration-count: infinite;
+}
+
+#t0{
+	display: none;
+	top:55%;
+	left:70%;
+	cursor: url(../data/cursor/cursor.png),default;
+	animation-name: push;
+	animation-duration:1.2s;
+	animation-iteration-count: infinite;
+}
+
+
+/*__________________________TABLE_____________________________*/
+#table{
+	cursor: url(../data/cursor/cursor.png),default;
+	position: absolute;
+	left: 20%;
+	top:30%;
+	height:50%;
+}
+
+/*__________________________CARDS_____________________________*/
+
+#scoreBoard{
+	background-color: #bd6e37;
+	position: absolute;
+	height: 5%;
+	width:10%;
+	left: 5%;
+	font-family: Comic Sans MS,Charcoal,Impact;
+	text-align: center;
+	font-size: 110px;
+	border-style: solid;
+}
+
+#timer{
+	background-color: #bd6e37;
+	position: absolute;
+	height: 5%;
+	width:10%;
+	right: 5%;
+	font-family: Comic Sans MS,Charcoal,Impact;
+	text-align: center;
+	font-size: 110px;
+	border-style: solid;
+}
+
+#go{
+	display: none;
+	line-height:75%;
+	background-color: #bd6e37;
+	position: absolute;
+	z-index: 1;
+	height: 20%;
+	width:30%;
+	left:35%;
+	top: 40%;
+	font-family: Charcoal,Impact;
+	text-align: center;
+	font-size: 500%;
+	border-style: solid;
+}
+
+/*__________________________MAIN_____________________________*/
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/*#play_button{
+	display: none;
+	font-family: palatino;
+	font-size: 800%;
+	text-align: center;
+	border-style: solid;
+	border-color: green;
+	border-width: 20px;
+	border-radius: 30px;
+	position: absolute;
+	top:90%;
+	left: 45%;
+	background-color: orange;
+	height: 5%;
+	width: 10%;
+}*/
+
+#logo{
+	position: absolute;
+	left: 30%;
+	top: 20%;
+	height: 40%;
+	width: 40%;
+}
+
+#caption{
+	position: absolute;
+	left: 40%;
+	top: 50%;
+	height: 10%;
+	width: 20%;
+}
+
+#play_button{
+	position: absolute;
+	top:70%;
+	left: 45%;
+	height: 10%;
+	width: 10%;
+}
+
+footer{
+	position: absolute;
+	bottom: 0%;
+	color: orange;
+	font-size: 500%;
+	text-align: center;
+	width: 75%;
+	left:10%;
+}
+
+#pokedex{
+	position: absolute;
+	right:3%;
+	top: 85%;
+	height:10%;
+
+}
+
+#pokedex_info{
+	position: absolute;
+	right:0%;
+	top: 20%;
+	height:80%;
+
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<title>
+		AIM  |Shoot the target
+	</title>
+	<script src ="js/script.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body onload="welcome()" style="background-image:url(data/bg/broken_bridge.png); background-size:cover; background-repeat: no-repeat;" id="skhst">
+
+<!-- <div onclick="play(this);Main();timer();"  id="play_button">
+	Play
+</div> -->
+<img id="logo" src="data/tools/logo.png">
+<img id="caption" src="data/tools/caption.png">
+<img onclick="play(this);Main();timer();"  id="play_button" src="data/tools/play.png">
+<img onclick="pokedex_toggle(1)" id="pokedex" src="data/tools/pokedex.png">
+<img onclick="pokedex_toggle(0)" id="pokedex_info" src="data/tools/pokedex_info.png">
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+<div id="scoreBoard">Score : </div>
+<div id="timer"></div>			
+<div id="go"> GAME OVER</div>	
+
+
+	<label id="targets">
+		<img  class="tools" id="table" src="data\tools\tableE.png">
+		<img  onmouseenter="target_onFocus(this.id)" onmouseleave="target_passed(this.id)" onclick="score()" class="target" id = "t0" src="">
+		<img  onmouseenter="target_onFocus(this.id)" onmouseleave="target_passed(this.id)" onclick="score()" class="target" id = "t1" src="data/target.png">
+		<img  onmouseenter="target_onFocus(this.id)" onmouseleave="target_passed(this.id)" onclick="score()" class="target" id = "t2" src="data/target.png">
+		<img  onmouseenter="target_onFocus(this.id)" onmouseleave="target_passed(this.id)" onclick="score()" class="target" id = "t3" src="data/target.png">
+		<img  onmouseenter="target_onFocus(this.id)" onmouseleave="target_passed(this.id)" onclick="score()" class="target" id = "t4" src="data/target.png">
+		<img  onmouseenter="target_onFocus(this.id)" onmouseleave="target_passed(this.id)" onclick="score()" class="target" id = "t5" src="data/target.png">
+		<img  onmouseenter="target_onFocus(this.id)" onmouseleave="target_passed(this.id)" onclick="score()" class="target" id = "t6" src="data/target.png">
+		<img  onmouseenter="target_onFocus(this.id)" onmouseleave="target_passed(this.id)" onclick="score()" class="target" id = "t7" src="data/target.png">
+		<!-- <img  onmouseenter="target_onFocus(this.id)" onmouseleave="target_passed(this.id)" class="target" id = "t2" src="data\target.png">
+		<img  onmouseenter="target_onFocus(this.id)" onmouseleave="target_passed(this.id)" class="target" id = "t3" src="data\target.png">
+		<img  onmouseenter="target_onFocus(this.id)" onmouseleave="target_passed(this.id)" class="target" id = "t4" src="data\target.png"> -->
+	</label>
+</body>
+</html>
